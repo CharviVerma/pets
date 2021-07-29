@@ -5,19 +5,32 @@
 	color: black;
 
 }
-
-.nav-link{
-	font-size: 29px;
+.container-fluid{
+	padding: 3% 15%;
 }
 
-.nav-brand{
-	font-weight: bolder;
-	line-height: 20px;
+.navbar{
+	padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+	font-weight: medium;
 }
 
 h2{
 	font-family: cursive;
 	color: darksalmon;
+	text-align: center;
 }
 
 #bitch{
@@ -109,3 +122,11 @@ padding: 4px;
 display: table-cell;
 padding: 4px;
 }
+
+.abstract{
+	background-image: url(https://cdn.ttgtmedia.com/visuals/ComputerWeekly/Hero%20Images/pets-cats-dogs-adobe-hero.jpg);
+	padding: 10px;
+	margin-top: 20px;
+}
+
+
