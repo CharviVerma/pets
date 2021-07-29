@@ -85,3 +85,27 @@ h4{
 .acc-bg{
 	background-image: url(https://catwithmonocle.com/wp-content/uploads/2020/02/ac-new-horizons-nook-pattern-2560x1440-1.jpg);
 }
+
+#theForm{
+color: black;
+diplay: table;
+padding: 25px;
+margin: 20px;
+margin-right: 10px;
+border: solid 3px #97cfbb;
+text-align: right;
+float: left;
+width: 500px;
+}
+.row{
+display: table-row;
+padding: 4px;
+}
+.row label{
+display: table-cell;
+padding: 4px;
+}
+.row input{
+display: table-cell;
+padding: 4px;
+}
