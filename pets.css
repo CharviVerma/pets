@@ -124,12 +124,15 @@ padding: 4px;
 }
 
 .abstract{
-	background-image: url(https://cdn.ttgtmedia.com/visuals/ComputerWeekly/Hero%20Images/pets-cats-dogs-adobe-hero.jpg);
 	padding: 10px;
 	margin-top: 20px;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-repeat: repeat-y;
+	border-image-repeat: no-repeat;
+	align-content: center;
+	top: 0px;
+	bottom: 0px;
 }
 
 .para1{
