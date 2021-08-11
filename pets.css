@@ -34,7 +34,7 @@ h2 {
 }
 
 .bitch {
-  background-color: #b6e0d1;
+  background-color: #d1e0db;
 }
 
 h3 {
@@ -130,11 +130,17 @@ p {
 .para1 {
   padding-left: 500px;
   padding-right: 500px;
-  width: 200px;
-	height: 235px;
+  background-image: url(para1.jpeg);
+
 }
 .abstract1{
 	background-image: url(para1.jpeg);
+	text-align: center;
+  	color: #333635;
+  	font-style: italic;
+  	margin: 10px;
+  	padding: 10px;
+
 }
 
 
