@@ -162,4 +162,16 @@ p {
   z-index: 5;
 }
 
+.tv{
+	display: none;
+}
 
+.first{
+	padding: 20px;
+	margin: 20px;
+}
+
+.img1{
+	padding: 5px;
+	margin: 5px;
+}
