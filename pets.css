@@ -143,8 +143,6 @@ p {
 
 }
 
-
-
 .modal {
   display: block;
 }
@@ -163,3 +161,5 @@ p {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+
