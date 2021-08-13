@@ -47,7 +47,7 @@ h3 {
 
 .sitters {
   text-align: center;
-  background-color: #97cfbb;
+  background-color: white;
   margin-top: 20px;
 }
 
@@ -174,4 +174,25 @@ p {
 .img1{
 	padding: 5px;
 	margin: 5px;
+}
+
+#testimonials{
+	text-align: center;
+	background-color: #d1e0db;
+	color: white;
+}
+
+.carousel-item{
+	padding: 7% 15%;
+}
+
+h2{
+	font-weight: bolder;
+	font-size: 3rem;
+}
+
+.testimonial-image{
+	width: 10%;
+	border-radius: 100%;
+	margin: 10px;
 }
