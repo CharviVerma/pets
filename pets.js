@@ -1,16 +1,27 @@
 'use strict';
 
-const showUpFormBtn = document.querySelector('.account-link');
-const hiddenStuff = document.querySelectorAll('.hidden');
-const modelEl = document.querySelector('.modal');
-const closeModalBtn = document.querySelector('.cls-modal');
+const navEl = document.querySelector('.navbar-nav');
+const closeModalBtns = document.querySelectorAll('.cls-modal');
+const overlay = document.querySelector('.overlay');
+const formHiddenEls = document.querySelectorAll('.form-hidden');
 
-const toggleModal = function () {
-  hiddenStuff.forEach((el) => {
-    el.classList.toggle('hidden');
-  });
-};
+navEl.addEventListener('click', function (e) {
+  e.preventDefault();
+  const formToDisplay = e.target.dataset.formType;
+  if (!formToDisplay) return;
 
-showUpFormBtn.addEventListener('click', toggleModal);
+  const formEl = document.querySelector(`#${formToDisplay}`);
+  console.log(formEl);
+  formEl.classList.remove('form-hidden');
+  overlay.classList.remove('form-hidden');
+});
 
-closeModalBtn.addEventListener('click', toggleModal);
+closeModalBtns.forEach((btn) =>
+  btn.addEventListener('click', function () {
+    formHiddenEls.forEach((el) => {
+      if (!el.classList.contains('form-hidden')) {
+        el.classList.add('form-hidden');
+      }
+    });
+  })
+);

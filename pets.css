@@ -47,7 +47,7 @@ h3 {
 
 .sitters {
   text-align: center;
-  background-color: #97cfbb;
+  background-color: white;
   margin-top: 20px;
 }
 
@@ -119,16 +119,22 @@ p {
   display: table-cell;
   padding: 4px;
 }
+.form-row select {
+  display: table-cell;
+  padding: 4px;
+}
 
 .abstract {
   padding: 10px;
   margin-top: 20px;
   width: 100%;
+  align-content: center;
+  top: 0px;
+  bottom: 0px;
 }
 
 .para1 {
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 3px;
   background-image: url(para1.jpeg);
 }
 .abstract1 {
@@ -144,16 +150,7 @@ p {
   display: block;
 }
 
-.abstract {
-  padding: 10px;
-  margin-top: 20px;
-  width: 100%;
-  align-content: center;
-  top: 0px;
-  bottom: 0px;
-}
-
-.hidden {
+.form-hidden {
   display: none;
 }
 
@@ -166,4 +163,39 @@ p {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+
+.tv {
+  display: none;
+}
+
+.first {
+  padding: 20px;
+  margin: 20px;
+}
+
+.img1 {
+  padding: 5px;
+  margin: 5px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #d1e0db;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
 }
