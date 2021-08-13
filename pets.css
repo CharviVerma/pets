@@ -96,7 +96,7 @@ p {
   background-image: url(https://catwithmonocle.com/wp-content/uploads/2020/02/ac-new-horizons-nook-pattern-2560x1440-1.jpg);
 }
 
-#theForm {
+.theForm {
   color: black;
   /* diplay: table; */
   padding: 25px;
@@ -119,6 +119,10 @@ p {
   display: table-cell;
   padding: 4px;
 }
+.form-row select {
+  display: table-cell;
+  padding: 4px;
+}
 
 .abstract {
   padding: 10px;
@@ -127,10 +131,10 @@ p {
 }
 
 .para1 {
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 3px;
   background-image: url(para1.jpeg);
 }
+
 .abstract1 {
   background-image: url(para1.jpeg);
   text-align: center;
@@ -153,7 +157,7 @@ p {
   bottom: 0px;
 }
 
-.hidden {
+.form-hidden {
   display: none;
 }
 
