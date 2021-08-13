@@ -119,35 +119,38 @@ p {
   display: table-cell;
   padding: 4px;
 }
+.form-row select {
+  display: table-cell;
+  padding: 4px;
+}
 
 .abstract {
   padding: 10px;
   margin-top: 20px;
   width: 100%;
-  
+  align-content: center;
+  top: 0px;
+  bottom: 0px;
 }
 
 .para1 {
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 3px;
   background-image: url(para1.jpeg);
-
 }
-.abstract1{
-	background-image: url(para1.jpeg);
-	text-align: center;
-  	color: #333635;
-  	font-style: italic;
-  	margin: 10px;
-  	padding: 10px;
-
+.abstract1 {
+  background-image: url(para1.jpeg);
+  text-align: center;
+  color: #333635;
+  font-style: italic;
+  margin: 10px;
+  padding: 10px;
 }
 
 .modal {
   display: block;
 }
 
-.hidden {
+.form-hidden {
   display: none;
 }
 
@@ -162,33 +165,33 @@ p {
   z-index: 5;
 }
 
-.tv{
-	display: none;
+.tv {
+  display: none;
 }
 
-.first{
-	padding: 20px;
-	margin: 20px;
+.first {
+  padding: 20px;
+  margin: 20px;
 }
 
-.img1{
-	padding: 5px;
-	margin: 5px;
+.img1 {
+  padding: 5px;
+  margin: 5px;
 }
 
-#testimonials{
-	text-align: center;
-	background-color: #d1e0db;
-	color: white;
+#testimonials {
+  text-align: center;
+  background-color: #d1e0db;
+  color: white;
 }
 
-.carousel-item{
-	padding: 7% 15%;
+.carousel-item {
+  padding: 7% 15%;
 }
 
-h2{
-	font-weight: bolder;
-	font-size: 3rem;
+h2 {
+  font-weight: bolder;
+  font-size: 3rem;
 }
 
 .testimonial-image{
@@ -196,4 +199,3 @@ h2{
 	border-radius: 100%;
 	margin: 10px;
 }
-
