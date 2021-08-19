@@ -21,7 +21,7 @@
 	<section id="header-section">
 		<div class="container-fluid">
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand" href="#">PET-CRECHE</a>
+				<a class="navbar-brand">PET-CRECHE</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -30,6 +30,7 @@
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
 							<a class="nav-link" href="#" data-form-type="signupForm">Sign Up</a>
+							<!-- <span class="nav-link welcome">Welcome Aniket</span> -->
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#" data-form-type="loginForm">Login</a>
@@ -237,32 +238,22 @@
 					<h1>Sign Up</h1>
 				</div>
 				<div class="modal-body">
-					<form class="theForm" action="shop.html" method="post" onsubmit="return validateTextbox();">
+					<form class="theForm form-signup" action="account.html" method="POST">
 						<div class="form-row">
-							<label for="name">First Name:</label>
-							<input type="text" id="name" name="" class="form-control"></br></br>
+							<label for="firstName">First Name:</label>
+							<input type="text" id="firstName" name="firstName" class="form-control"></br></br>
 						</div>
 						<div class="form-row">
-							<label for="address">Last Name:</label>
-							<input type="text" id="address" name="" class="form-control"></br></br>
+							<label for="lastName">Last Name:</label>
+							<input type="text" id="lastName" name="lastName" class="form-control"></br></br>
 						</div>
 						<div class="form-row">
 							<label for="email">Email:</label>
-							<input type="email" id="email" name="" class="form-control"></br></br>
+							<input type="email" id="email" name="email" class="form-control"></br></br>
 						</div>
 						<div class="form-row">
 							<label for="passSignUp">Password:</label>
-							<input type="password" id="passSignUp" name="" class="form-control"></br></br>
-						</div>
-						<div class="form-row">
-							<label for="pettype">Pet Type:</label>
-							<select class="form-control" id="pettype">
-								<option>Dog</option>
-								<option>Cat</option>
-								<option>Hamster</option>
-								<option>Bird</option>
-								<option>Monkey</option>
-							</select>
+							<input type="password" id="passSignUp" name="password" class="form-control"></br></br>
 						</div>
 						<button type="submit" class="btn btn-primary">Submit</button>
 					</form>
@@ -282,14 +273,14 @@
 					<h1>Login</h1>
 				</div>
 				<div class="modal-body">
-					<form class="theForm" action="shop.html" method="post" onsubmit="return validateTextbox();">
+					<form class="theForm form-login" action="account.html" method="POST">
 						<div class="form-row">
 							<label for="emailLogin">Email:</label>
-							<input type="email" id="emailLogin" name="" class="form-control"></br></br>
+							<input type="email" id="emailLogin" name="email" class="form-control"></br></br>
 						</div>
 						<div class="form-row">
 							<label for="passLogIn">Password:</label>
-							<input type="password" id="passLogIn" name="" class="form-control"></br></br>
+							<input type="password" id="passLogIn" name="password" class="form-control"></br></br>
 						</div>
 						<button type="submit" class="btn btn-primary">Submit</button>
 					</form>
@@ -313,7 +304,6 @@
 		<i class="social-icon far fa-envelope"></i>
 
 		<p>© Copyright 2021 PET-CRECHE</p>
-
 	</footer>
 
 	<!-- SCRIPTS -->

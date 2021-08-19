@@ -199,3 +199,12 @@ h2 {
   border-radius: 100%;
   margin: 10px;
 }
+
+.welcome {
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-weight: bold;
+}
+
+.welcome:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
