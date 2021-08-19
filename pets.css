@@ -1,7 +1,7 @@
 #header-section {
   background-color: #1098ad;
   line-height: 200px;
-  
+
   color: black;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 h2 {
-  color:black;
+  color: black;
   text-align: center;
 }
 
@@ -188,32 +188,39 @@ p {
   padding: 7% 15%;
 }
 
-
 .testimonial-image {
   width: 28%;
   border-radius: 10%;
   margin: 10px;
 }
 
-i{
+.welcome {
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-weight: bold;
+}
+
+.welcome:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+i {
   color: #96f2d7;
 }
 
-.fa-3x:hover{
+.fa-3x:hover {
   color: #1098ad;
 }
 
-.icon{
+.icon {
   color: #66d9e8;
 }
-.social-icon{
+.social-icon {
   color: black;
 }
 
-.spacing{
+.spacing {
   margin-top: 32px;
 }
 
-.space{
+.space {
   margin-top: 32px;
 }
