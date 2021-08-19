@@ -1,7 +1,7 @@
 #header-section {
-  background-color: #719177;
+  background-color: #1098ad;
   line-height: 200px;
-  background-image: url(https://catwithmonocle.com/wp-content/uploads/2020/02/ac-new-horizons-nook-pattern-2560x1440-1.jpg);
+  
   color: black;
 }
 
@@ -28,13 +28,12 @@ body {
 }
 
 h2 {
-  font-family: cursive;
-  color: darksalmon;
+  color:black;
   text-align: center;
 }
 
 .bitch {
-  background-color: #d1e0db;
+  background-color: #96f2d7;
 }
 
 h3 {
@@ -42,7 +41,7 @@ h3 {
   font-size: 30px;
   padding: 10px;
   margin: 27px;
-  color: #719177;
+  color: #1098ad;
 }
 
 .sitters {
@@ -52,7 +51,7 @@ h3 {
 }
 
 h4 {
-  color: #719177;
+  color: #1098ad;
 }
 p {
   color: slategray;
@@ -102,7 +101,7 @@ p {
   padding: 25px;
   margin: 20px;
   margin-right: 10px;
-  border: solid 3px #97cfbb;
+  border: solid 3px #96f2d7;
   text-align: right;
   float: left;
   width: 500px;
@@ -181,7 +180,7 @@ p {
 
 #testimonials {
   text-align: center;
-  background-color: #d1e0db;
+  background-color: #96f2d7;
   color: white;
 }
 
@@ -189,13 +188,32 @@ p {
   padding: 7% 15%;
 }
 
-h2 {
-  font-weight: bolder;
-  font-size: 3rem;
-}
 
 .testimonial-image {
-  width: 10%;
-  border-radius: 100%;
+  width: 28%;
+  border-radius: 10%;
   margin: 10px;
+}
+
+i{
+  color: #96f2d7;
+}
+
+.fa-3x:hover{
+  color: #1098ad;
+}
+
+.icon{
+  color: #66d9e8;
+}
+.social-icon{
+  color: black;
+}
+
+.spacing{
+  margin-top: 32px;
+}
+
+.space{
+  margin-top: 32px;
 }
