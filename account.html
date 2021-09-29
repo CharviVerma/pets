@@ -46,7 +46,35 @@
       </nav>
   </section>
 
-  pick a date: <input type="text" id="pickdate">
+  <section class="date-section">
+    <h3 class="date-title">Search for a sitter</h3>
+    <!-- <h4 class="date-subtitle">Pick dates</h4> -->
+    <label for="date" class="date-subtitle">Pick Dates:</label>
+    <ul class="dates">
+      <li>
+        <span>From:</span>
+        <input type="text" class="date-from form-control">
+      </li>
+      <li>
+        <span>To:</span>
+        <input type="text" class="date-to form-control">
+      </li>
+    </ul>
+    <label for="pettype">Pet Type:</label>
+    <select class="select-pettype form-control" id="pettype">
+      <option value="dog">Dog</option>
+      <option value="cat">Cat</option>
+      <option value="rabbit">Rabbit</option>
+      <option value="hedgehog">Hedgehog</option>
+      <option value="bird">Bird</option>
+    </select>
+    <button class="search-date btn btn-success">Search</button>
+
+  </section>
+
+  <section class="sitters-section"></section>
+
+
   <!-- FOOTER -->
   <footer id="footer">
     <i class="social-icon fab fa-facebook-f"></i>
@@ -61,7 +89,6 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
     integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-  <script src="pets.js"></script>
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
@@ -73,18 +100,19 @@
 
   <script type="text/javascript">
     $(document).ready(function () {
-      $('#pickdate').datepicker(
+      $('input[class^="date-"]').datepicker(
         {
-          numberOfMonths: 2,
+          numberOfMonths: 1,
           changeMonth: true,
           showWeek: true,
           weekHeader: "week",
-          minDate: new Date(2021, 08, 16),
-          maxDate: new Date(2021, 12, 25)
+          minDate: new Date(Date.now() + 86400000),
+          maxDate: new Date(Date.now() + 5234601600)
         });
     });
 
   </script>
+  <script src="account.js"></script>
 </body>
 
 </html>

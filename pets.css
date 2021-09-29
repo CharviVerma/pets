@@ -224,3 +224,65 @@ i {
 .space {
   margin-top: 32px;
 }
+
+.date-section {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.dates {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.search-date {
+  display: block;
+  margin: 0 auto;
+}
+/* 
+.date-subtitle {
+  color: #333635;
+  padding-left: 20px;
+} */
+
+.select-pettype {
+  margin-bottom: 35px;
+}
+
+.sitters-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-sitter {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.card-subtitle {
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 25px;
+}
+
+.available-days {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  gap: 15px;
+  color: #4d5154;
+}
+
+.month-name {
+  flex-basis: 50px;
+}

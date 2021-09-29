@@ -150,7 +150,7 @@ formSignupEl.addEventListener('submit', function (e) {
   hideModal();
 
   // window.location.href = '/account.html';
-  window.location.replace('account.html');
+  window.location.replace('/account.html');
 });
 
 ////////////////////// SIGN-IN FORM SUBMIT //////////////////////////////
